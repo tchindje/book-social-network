@@ -65,7 +65,7 @@ jobs:
           java-version: '17'
           distribution: 'corretto'
 
-      - name: Compile project
+      - name: Build project
         run: |
           cd book-network
           ./mvnw clean package
