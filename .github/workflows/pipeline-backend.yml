@@ -68,7 +68,7 @@ jobs:
       - name: Compile project
         run: |
           cd book-network
-          ./mvnw clean compile
+          ./mvnw clean target
 
   build-image:
     name: Build Docker image
